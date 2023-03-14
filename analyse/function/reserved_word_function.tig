@@ -1,0 +1,10 @@
+let
+    function function() :int =
+             2
+in
+end
+/*
+FIXME: error message
+reserved_word_function.tig:2.14-21: syntax error, unexpected function, expecting identifier
+
+*/

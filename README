@@ -1,0 +1,5 @@
+need to FIX the following message
+FIXME: error message
+
+Analyse Folder:
+    is a folder to test lexer/parser/semantical behavior don't use any print or check except   for code error on crash. 

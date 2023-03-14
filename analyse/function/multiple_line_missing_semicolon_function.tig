@@ -1,0 +1,17 @@
+let
+    function name(value : int): int =
+             let
+                var test := 2
+                var testing := 3
+            in
+                test := 3;
+                testing := 4
+                test
+            end
+in
+end
+
+/*
+FIXME: error message
+multiple_line_missing_semicolon_function.tig:9.17-20: syntax error, unexpected identifier, expecting end
+*/

@@ -1,0 +1,5 @@
+let
+    function function_name():int=
+        2
+in
+end

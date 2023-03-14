@@ -1,0 +1,9 @@
+let
+    var variable := 58;
+in
+end
+
+/*
+FIXME: error message
+basic_var_semicolon.tig:2.23: syntax error, unexpected ;, expecting in
+*/

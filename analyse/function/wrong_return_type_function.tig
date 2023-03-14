@@ -1,0 +1,11 @@
+let
+    function int_return_function(): string =
+        0
+in
+end
+/*
+FIXME: error message
+wrong_return_type_function.tig:2.5-3.9: type mismatch
+  result type: string
+  body type: int
+*/

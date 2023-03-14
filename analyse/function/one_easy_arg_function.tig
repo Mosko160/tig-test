@@ -1,0 +1,5 @@
+let
+    function function_name(value : int) : int =
+             value
+in
+end

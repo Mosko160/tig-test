@@ -1,0 +1,10 @@
+let
+    var i := 0
+in
+    while i < 10 do
+          i := i + 1;
+end
+/*
+FIXME: error message
+simple_while_main.tig:6.1-3: syntax error, unexpected end
+*/

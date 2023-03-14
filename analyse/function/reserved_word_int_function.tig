@@ -1,0 +1,9 @@
+let
+    function int()int:=
+             2
+in
+end
+/*
+FIXME: error message
+reserved_word_int_function.tig:2.19-21: syntax error, unexpected identifier, expecting =
+*/

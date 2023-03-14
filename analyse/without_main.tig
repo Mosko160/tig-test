@@ -1,0 +1,6 @@
+var hello := 20
+var this_is_a_var := 2
+/*
+FIXME: error message
+without_main.tig:1.1-2.22: _main definition is missing
+*/

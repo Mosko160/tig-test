@@ -1,0 +1,12 @@
+let
+    function name(value : int): int =
+             let
+                var test := 2
+                var testing := 3
+            in
+                test := 3;
+                testing := 4;
+                test
+            end
+in
+end
