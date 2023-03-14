@@ -1,0 +1,6 @@
+let
+    var test := 10
+in
+    while (test > 12 & test < 15) | ( (test > 10 | test = 9 ) & test <> 11 ) | (test <= 10 & test >= 10) do
+          test := test + 1
+end

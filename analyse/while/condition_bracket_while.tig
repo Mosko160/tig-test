@@ -1,0 +1,9 @@
+let
+    var test := 1
+in
+    while (test = 0; test >= 0) do
+          test := test - 1
+end
+/*
+Hint: Checking only the last condition the first one are just skipped but still need to be valid
+*/

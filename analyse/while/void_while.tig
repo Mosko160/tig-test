@@ -1,0 +1,9 @@
+let
+    var test := 1
+in
+    while do
+end
+/*
+FIXME: error message
+void_while.tig:4.11-12: syntax error, unexpected do
+*/

@@ -1,0 +1,10 @@
+let
+    var i := 2
+in
+    while i < 2 do
+          (
+          i := 2;
+          i := 3;
+          i := 4
+          )
+end

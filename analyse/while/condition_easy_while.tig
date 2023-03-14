@@ -1,0 +1,6 @@
+let
+    var test := 10
+in
+    while test > 10 & test < 15 do
+          test := test + 1
+end

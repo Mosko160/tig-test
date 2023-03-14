@@ -1,0 +1,15 @@
+let
+    var i := 2
+in
+    while i < 2 do
+          (
+          i := 2;
+          i := 3;
+          i := 4
+
+end
+
+/*
+FIXME: error message
+multiple_line_with_unclose_backets_while.tig:10.1-3: syntax error, unexpected end, expecting )
+*/

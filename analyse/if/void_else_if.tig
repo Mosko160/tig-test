@@ -1,0 +1,11 @@
+let
+    var condition:= 0
+in
+    if condition = 0 then condition = 2
+end
+/*
+FIXME: error message
+oid_else_if.tig:4.5-39: type mismatch
+  then clause type: int
+  else clause type: void
+*/
