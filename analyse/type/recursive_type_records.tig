@@ -1,0 +1,9 @@
+let
+    type record = {val : int, next : record}
+    var rec := record{val = 1, next = nil}
+    var rec1 := record{val = 0 , next = rec}
+in
+    rec1.next.val
+end
+
+/* rec.val = 1  */

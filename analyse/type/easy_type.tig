@@ -1,0 +1,5 @@
+let
+    type test = array of int
+    function testing  (n : test) : int = 2
+in
+end

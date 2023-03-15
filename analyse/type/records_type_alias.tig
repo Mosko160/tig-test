@@ -1,0 +1,9 @@
+let
+    type record = {val : int}
+    type reco = record
+    var rec := reco{val = 1}
+in
+    print_int(rec.val)
+end
+
+/* rec.val = 1  */

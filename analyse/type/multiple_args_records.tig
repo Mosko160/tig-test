@@ -1,0 +1,8 @@
+let
+    type record = {val : int, val2 : int, val3 : int}
+    var rec := record{val = 1, val2 = 2, val3 = 3}
+in
+    rec.val3
+end
+
+/* rec.val3 = 3  */

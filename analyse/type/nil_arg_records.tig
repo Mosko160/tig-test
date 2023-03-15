@@ -1,0 +1,14 @@
+let
+    type record = {val : int}
+    var rec := record{val = nil}
+in
+    rec.val := 1;
+    rec.val
+end
+
+/*
+    FIXME: error message
+    nil_arg_records.tig:3.23-31: type mismatch
+  field val type: int
+  value type: nil = (null)
+*/

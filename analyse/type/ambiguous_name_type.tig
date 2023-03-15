@@ -1,0 +1,14 @@
+let
+    type test = array of int
+    var arr := test[1] of 0
+    var test := 64
+    function test  (n : test) : int = 2
+in
+    test := 65;
+    test(arr)1
+end
+
+/*
+    A different place to store type and var and fct
+    So naming with the same name is possible
+*/

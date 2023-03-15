@@ -1,0 +1,12 @@
+let
+    type record = records
+    type records = record
+in
+end
+
+/* rec.val = 1  */
+
+/*
+FIXME: error message
+wrong_recursive_records.tig:3.5-25: recursive type definition: records
+*/

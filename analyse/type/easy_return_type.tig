@@ -1,0 +1,7 @@
+let
+    type test = array of int
+    var arr := test[1] of 0
+    function testingx  (n : test) : test = n
+in
+    testingx(arr)
+end

@@ -1,0 +1,8 @@
+let
+    type reco = {val : int}
+    type record = array of reco
+    var arr := record[1] of {val = 0}
+in
+    arr[0].val := 2;
+    print_int(arr[0].val)
+end
