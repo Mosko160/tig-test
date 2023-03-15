@@ -1,5 +1,5 @@
 let
-    var conditon := 0
+    var condition := 0
 in
     if condition = 0 then condition := 2
     else condition := 3
