@@ -1,0 +1,8 @@
+let
+    var condition := 0
+in
+    if condition = 0 then condition := 1
+    else( if condition = 1 then condition := 2
+         else (if condition = 2 then condition := 3
+              else condition := 42))
+end

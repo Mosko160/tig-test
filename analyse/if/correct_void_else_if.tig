@@ -1,0 +1,6 @@
+let
+    var condition:= 0
+in
+    if condition = 0 then ()
+    else condition := 1
+end

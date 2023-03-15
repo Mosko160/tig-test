@@ -1,0 +1,13 @@
+let
+    var condition := 0
+in
+    for i := 1 to "a" do
+        (condition := condition + 1);
+    print_int(condition)
+end
+/*
+FIXME: error message
+wrong_border_type.tig:4.19-21: type mismatch
+  upper bound type: string
+  expected type: int
+*/

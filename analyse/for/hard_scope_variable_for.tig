@@ -1,0 +1,22 @@
+let
+    var condition := 0
+    var i := 0
+in
+    for i := 1 to 2 do
+        (
+            condition := condition + 1;
+            i := i + 1
+        );
+    print_int(i)
+end
+/* i = 0 */
+/*
+Hint: i is a local variable in "for" whereas the global i is stil a different var
+
+The local i is primary and the scope priorize local variable. So the i which is a Read only
+var is being changed an error occure.
+
+hard_scope_variable_for.tig:8.13-22: variable is read only
+
+
+*/

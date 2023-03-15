@@ -1,0 +1,8 @@
+let
+    var condition := 0
+in
+    for i := 1 to 0 do
+        (condition := condition + 1);
+    print_int(condition)
+end
+/* (condition = 0) */

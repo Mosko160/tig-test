@@ -1,0 +1,11 @@
+let
+    var condition := 0
+in
+    if (condition = 0 & condition >= 0) & (condition <> 0 | condition = 0) & (condition + 1)  then condition := 2
+    else condition := 3;
+    print_int(condition)
+end
+/*
+0 = false
+other int  = true
+condition = 2 */
